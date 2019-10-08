@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 15
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId "org.plutext.DocxToHtml"
+        minSdkVersion 15
+        targetSdkVersion 15
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/JAXBNamespacePrefixMapper-2.2.4.jar')
+    compile files('libs/activation.jar')
+    compile files('libs/additionnal.jar')
+    compile files('libs/ae-awt.jar')
+    compile files('libs/ae-docx4j-2.8.0-SNAPSHOT.jar')
+    compile files('libs/ae-jaxb-2.2.5.jar')
+    compile files('libs/ae-xmlgraphics-commons.jar')
+    compile files('libs/avalon-framework-api-4.3.1.jar')
+    compile files('libs/avalon-framework-impl-4.3.1.jar')
+    compile files('libs/commons-codec-1.3.jar')
+    compile files('libs/commons-io-1.3.1.jar')
+    compile files('libs/commons-lang-2.4.jar')
+    compile files('libs/commons-logging-1.1.1.jar')
+    compile files('libs/istack-commons-runtime.jar')
+    compile files('libs/jaxp-datatype.jar')
+    compile files('libs/log4j-1.2.15.jar')
+    compile files('libs/serializer-2.7.1.jar')
+    compile files('libs/stringtemplate-3.2.1.jar')
+    compile files('libs/txw2-20110809.jar')
+    compile files('libs/w3c-css.jar')
+}

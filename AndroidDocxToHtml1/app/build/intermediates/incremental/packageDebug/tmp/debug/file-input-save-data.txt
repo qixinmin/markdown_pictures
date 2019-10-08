@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Oct 08 22:20:46 CST 2019
+0.baseType=DIRECTORY
+0.base=/Users/xinmin/test/AndroidDocxToHtml1/app/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1

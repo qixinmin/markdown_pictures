@@ -1,0 +1,63 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/AndroidDocxToHtml.iml
+* .idea/codeStyles/
+* .idea/codeStyles/Project.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* README.txt
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* libs/JAXBNamespacePrefixMapper-2.2.4.jar => app/libs/JAXBNamespacePrefixMapper-2.2.4.jar
+* libs/activation.jar => app/libs/activation.jar
+* libs/additionnal.jar => app/libs/additionnal.jar
+* libs/ae-awt.jar => app/libs/ae-awt.jar
+* libs/ae-docx4j-2.8.0-SNAPSHOT.jar => app/libs/ae-docx4j-2.8.0-SNAPSHOT.jar
+* libs/ae-jaxb-2.2.5.jar => app/libs/ae-jaxb-2.2.5.jar
+* libs/ae-xmlgraphics-commons.jar => app/libs/ae-xmlgraphics-commons.jar
+* libs/avalon-framework-api-4.3.1.jar => app/libs/avalon-framework-api-4.3.1.jar
+* libs/avalon-framework-impl-4.3.1.jar => app/libs/avalon-framework-impl-4.3.1.jar
+* libs/commons-codec-1.3.jar => app/libs/commons-codec-1.3.jar
+* libs/commons-io-1.3.1.jar => app/libs/commons-io-1.3.1.jar
+* libs/commons-lang-2.4.jar => app/libs/commons-lang-2.4.jar
+* libs/commons-logging-1.1.1.jar => app/libs/commons-logging-1.1.1.jar
+* libs/istack-commons-runtime.jar => app/libs/istack-commons-runtime.jar
+* libs/jaxp-datatype.jar => app/libs/jaxp-datatype.jar
+* libs/log4j-1.2.15.jar => app/libs/log4j-1.2.15.jar
+* libs/serializer-2.7.1.jar => app/libs/serializer-2.7.1.jar
+* libs/stringtemplate-3.2.1.jar => app/libs/stringtemplate-3.2.1.jar
+* libs/txw2-20110809.jar => app/libs/txw2-20110809.jar
+* libs/w3c-css.jar => app/libs/w3c-css.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
